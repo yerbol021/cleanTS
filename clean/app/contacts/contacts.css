@@ -1,0 +1,40 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #ccc;
+  border-radius: 100px;
+  overflow: hidden;
+  padding: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.call.us,
+.wait.us,
+.enjoy {
+  text-align: center;
+  padding: 20px;
+}
+
+.call.us img,
+.wait.us img,
+.enjoy img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.call.us h4,
+.wait.us h4,
+.enjoy h4,
+.call.us h3,
+.wait.us h3,
+.enjoy h3 {
+  margin: 0; 
+  display: inline; 
+  margin-left: 10px; 
+}
