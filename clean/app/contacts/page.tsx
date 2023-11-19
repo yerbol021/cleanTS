@@ -6,7 +6,9 @@ const Contacts = () => {
     <div className="main_div">
       <div className="contacts div">
         <div className="call us">
-          <img src="/images/call us.jpeg" alt="Call us" />
+          <a href="tel:+16726672700" title="Call Us">
+            <img src="/images/call us.jpeg" alt="Call us" />
+          </a>
           <h4>Call Us and Book a date</h4>
           <h3></h3>
         </div>
@@ -22,9 +24,7 @@ const Contacts = () => {
         </div>
       </div>
       <div className="calendly">
-        <div className="calendly form">
-
-        </div>
+        <div className="calendly form"></div>
       </div>
     </div>
   );
